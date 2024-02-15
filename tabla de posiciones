@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Venta de Seguros</title>
+</head>
+<body>
+    <h2>Registro de Cliente</h2>
+    <form action="/submit_registro_seguros" method="post">
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required><br>
+
+        <label for="tipo_seguro">Tipo de seguro:</label><br>
+        <select id="tipo_seguro" name="tipo_seguro" required>
+            <option value="">Seleccione el tipo de seguro</option>
+            <option value="Seguro de Vida">Seguro de Vida</option>
+            <option value="Seguro de Salud">Seguro de Salud</option>
+            <option value="Seguro de Automóvil">Seguro de Automóvil</option>
+            <!-- Agrega más opciones según los tipos de seguro que ofrezcas -->
+        </select><br>
+
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>

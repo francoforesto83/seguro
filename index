@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú de Seguros</title>
+</head>
+<body>
+    <h1>Menú de Seguros</h1>
+    <ul>
+        <li><a href="registro_seguros.html">Registro de Seguros</a></li>
+        <!-- Puedes agregar más enlaces a otras páginas si es necesario -->
+    </ul>
+</body>
+</html>
